@@ -1,0 +1,12 @@
+<p>Botafogo contra Brasiliense :<p>
+  <ul>
+  {% for stat in stats %}
+    <li>{{ stat.números }} {{ stat.tipo }}</li>
+  {% endfor %}
+</ul>
+  <p>Confrontos Gerais:</p>
+  <ol>
+     {% for team in teams %}
+      <li>{{team.time}} {{team.wins}}</li>
+     {% endfor %}
+  </ol>

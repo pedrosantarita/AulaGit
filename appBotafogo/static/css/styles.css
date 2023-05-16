@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  font-family: 'Roboto';
+  color: #A9A9A9;
+}
+h3 {font-family: 'Arial';
+}
+.primeiro-parágrafo{
+  color: gray;
+}
+header { color:black;
+  
+}
+a { color:black;
+  
+}
+table,th,td{border:1px solid black;}
